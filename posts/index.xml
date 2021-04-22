@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Quality &amp; Efficiency</title><link>https://qe-community.github.io/posts/</link><description>Recent content in Posts on Quality &amp; Efficiency</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Thu, 22 Apr 2021 10:16:59 +0800</lastBuildDate><atom:link href="https://qe-community.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>敏捷质量成熟度模型</title><link>https://qe-community.github.io/posts/agilequalitymodel/</link><pubDate>Thu, 22 Apr 2021 10:16:59 +0800</pubDate><guid>https://qe-community.github.io/posts/agilequalitymodel/</guid><description>我们的世界，遍布着各种需求。 生活中，我们面临着生理需求，安全需求，尊严需求；工作中，我们处理着项目需求，社交需求，自我实现需求。
 每个需求，都有解决的方法。下面这三个需求，也是这样：
-一，评估需求：我项目的质量管理具体处于什么水平？
-二，成长需求：我可以从哪些方面提升当前项目的质量管理？
-三，指导需求：新开的项目如何准确选择测试实践来采用？
+评估需求：我项目的质量管理具体处于什么水平？
+成长需求：我可以从哪些方面提升当前项目的质量管理？
+指导需求：新开的项目如何准确选择测试实践来采用？
 以上需求对应的三个问题都源于我们日常项目中的质量管理范畴。在寻求答案和解决方法之前，我们先仔细梳理一下这几个需求。
-● 对于这个评估需求，要处理它我们主要考虑做到 - - 多维。
-● 对于成长需求最关键的是 - - 参照。
-● 而最后的指导需求，前两个需求都处理后，所生成的多维的评估和参照标准被众人接受，并归纳成某种理论，这个理论即可作为测试实践工具箱对项目选择进行指导。
+对于这个评估需求，要处理它我们主要考虑做到 - - 多维。
+对于成长需求最关键的是 - - 参照。
+而最后的指导需求，前两个需求都处理后，所生成的多维的评估和参照标准被众人接受，并归纳成某种理论，这个理论即可作为测试实践工具箱对项目选择进行指导。
 而我们在这里所特指的这个理论，就是它。
 它是一个分析模型，一个关于敏捷质量成熟度的分析模型。
 该模型适用于敏捷流程的项目进行质量管理分析。使用者分别从六个维度(质量内建理念，测试左移，测试策略集，测试方法集，快速交付和测试右移)依据项目团队的现状，对四十一个不同的评估细则进行团队自我评价，填写一定的分值以采集量化分析所需的源数据。模型配套使用Excel文件工具通过内设的汇算逻辑自动绘制敏捷雷达和量表图以展示项目团队的质量管理成熟度。 该模型的展现效果包括两部分，即敏捷质量管理雷达和量表。
