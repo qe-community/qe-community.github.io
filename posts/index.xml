@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Quality &amp; Efficiency</title><link>https://qe-community.github.io/posts/</link><description>Recent content in Posts on Quality &amp; Efficiency</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Mon, 12 Jul 2021 10:31:00 +0800</lastBuildDate><atom:link href="https://qe-community.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>改进故事卡返工率</title><link>https://qe-community.github.io/posts/reducestoryrework/</link><pubDate>Mon, 12 Jul 2021 10:31:00 +0800</pubDate><guid>https://qe-community.github.io/posts/reducestoryrework/</guid><description>名词解释： AC：全称为Acceptance Criteria，即验收标准，写在每张故事卡上，代表每张卡需要进行验证的具体测试场景和测试点。 Kick off：Dev在进行开发之前，和QA、BA、UX同事进行需求确认，确保大家对需求的理解一致，并且讨论出更完善的场景。 Desk Check：Dev在开发完故事卡后，按照验收标准给QA、BA、UX同事进行演示，确保功能的正确性。 故事卡返工：在 Desk Check 或者 In QA 阶段，发现故事卡中的一些重大问题，Dev重新拿回这张卡继续工作。 Showcase：产品或功能演示，向团队成员演示已完成的功能。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Quality &amp; Efficiency</title><link>https://qe-community.github.io/posts/</link><description>Recent content in Posts on Quality &amp; Efficiency</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Mon, 12 Jul 2021 10:31:00 +0800</lastBuildDate><atom:link href="https://qe-community.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>改进故事卡返工率</title><link>https://qe-community.github.io/posts/reducestoryrework/</link><pubDate>Mon, 12 Jul 2021 10:31:00 +0800</pubDate><guid>https://qe-community.github.io/posts/reducestoryrework/</guid><description>名词解释： AC：全称为Acceptance Criteria，即验收标准，写在每张故事卡上，代表每张卡需要进行验证的具体测试场景和测试点。
+Kick off：Dev在进行开发之前，和QA、BA、UX同事进行需求确认，确保大家对需求的理解一致，并且讨论出更完善的场景。
+Desk Check：Dev在开发完故事卡后，按照验收标准给QA、BA、UX同事进行演示，确保功能的正确性。
+故事卡返工：在 Desk Check 或者 In QA 阶段，发现故事卡中的一些重大问题，Dev重新拿回这张卡继续工作。
+Showcase：产品或功能演示，向团队成员演示已完成的功能。
 项目背景： 这是一个稳定运行2年多的前端项目，BA和QA人员基本变动很小，Dev经历了一些变化，目前有三位前端Dev + 一位后端Dev。团队氛围比较好，大家都比较包容，相处十分融洽，可能正是因为这样好的氛围和合作让我们大家都有所松懈，才会产生一些影响交付质量和交付效率的问题。
 下面我们使用黄金圈法则来介绍整个改进过程的来龙去脉，先简单介绍一下黄金圈法则： 它是一种以目标为中心的思维方式，强调要按照目标—方法—行动（Why-How-What）的顺序思考问题。
-Why：为什么做一件事，目标和信念 How：怎么做，是实现目标的途径 What：事情的表象，具体实施的动作与达到的结果
+Why：为什么做一件事，目标和信念
+How：怎么做，是实现目标的途径
+What：事情的表象，具体实施的动作与达到的结果
 那么我们就来看下整个改进过程是如何发生的，以及结果是怎么样的。
 Why? 为什么要做这个改进工作？主要是来自QA童鞋的困扰，比较频繁的发现团队在Desk Check以及In QA阶段发现问题，总结为以下三点：
 Desk Check有时发现部分AC没有满足 Desk Check时一些在AC之外的基本功能没有满足 In QA发现一些UI或者功能问题，导致开发返工 这些在Desk Check或者In QA发现的问题，都会导致故事卡的返工，大家重复的开发和测试，以及多次的Desk Check也会占有大家更多的时间，给大家造成很大的困扰。
